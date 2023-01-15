@@ -10,7 +10,7 @@ export default class Navbar extends React.Component{
         return(
             <nav className="navi">
                 <a href="/" className="home-name">
-                    Ong Zi Jian
+                    Ong Zi Jian's Page
                 </a>
                 <div className="navigation-menu">
                     <ul>
