@@ -2,8 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##View
-This project is live on Github pages at: (https://ong-zijian.github.io/zijian_personal_page/)
+## View
+This project is live on Github pages at: https://ong-zijian.github.io/zijian_personal_page/ \
 If the pages is not working, you can run it from the script methods below.
 
 ## Available Scripts
