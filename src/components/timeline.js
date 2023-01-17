@@ -76,7 +76,7 @@ export default function timeline(){
                     <ul>
                         <li>Part of the planning and execution team behind Deal Day 2018 on 5 October. </li>
                         <li>Curated more than 400 meetings which received positive responses from the participants.</li>
-                        <li>Managed the meetings and schedule</li>
+                        <li>Managed the meetings and schedule.</li>
                     </ul>
                 </li>
                 <li>Singapore FinTech Festival (SFF):
@@ -104,10 +104,9 @@ export default function timeline(){
         >
             <h3 className="vertical-timeline-element-title">Ngee Ann Polytechnic</h3>
             <h4 className="vertical-timeline-element-subtitle">Diploma in Business Information Technology</h4>
-            <p>Mix course with elements of business, accounting and market with technology. Final year project includes a fullstack asp.net project</p>
-            <p>Hi Club</p>
+            <p>Mix course with elements of business, accounting and market with technology. <br/>Final year project includes a fullstack asp.net project</p>
+            <p>Hi Club Main Committee 17/18: Events Coordinator</p>
             <ul>
-                <li>Main Committee 17/18: Events Coordinator</li>
                 <li>Plan and organise 4 song signing event</li>
                 <li>Plan and organise 2 outreach events to interact with the Deaf community</li>
             </ul>
