@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/zijian_personal_page/static/css/main.b702f2b8.css",
-    "main.js": "/zijian_personal_page/static/js/main.77869006.js",
+    "main.css": "/zijian_personal_page/static/css/main.24bfa8bb.css",
+    "main.js": "/zijian_personal_page/static/js/main.d7c774af.js",
     "static/js/787.65a8f8da.chunk.js": "/zijian_personal_page/static/js/787.65a8f8da.chunk.js",
     "static/media/johannes-plenio.jpg": "/zijian_personal_page/static/media/johannes-plenio.2669c32723cc0d8a064e.jpg",
+    "static/media/zijianLogo.png": "/zijian_personal_page/static/media/zijianLogo.84b1f63cf19be634e2c9.png",
     "index.html": "/zijian_personal_page/index.html",
-    "main.b702f2b8.css.map": "/zijian_personal_page/static/css/main.b702f2b8.css.map",
-    "main.77869006.js.map": "/zijian_personal_page/static/js/main.77869006.js.map",
+    "main.24bfa8bb.css.map": "/zijian_personal_page/static/css/main.24bfa8bb.css.map",
+    "main.d7c774af.js.map": "/zijian_personal_page/static/js/main.d7c774af.js.map",
     "787.65a8f8da.chunk.js.map": "/zijian_personal_page/static/js/787.65a8f8da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b702f2b8.css",
-    "static/js/main.77869006.js"
+    "static/css/main.24bfa8bb.css",
+    "static/js/main.d7c774af.js"
   ]
 }
