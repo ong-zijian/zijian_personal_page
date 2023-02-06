@@ -14,9 +14,9 @@ export default class Navbar extends React.Component{
                 <a href="/" className="home-name">Ong Zi Jian's Profile</a>
                 <div className="navigation-menu">
                     <ul>
-                        <li>
-                        <a href="/home">Home</a>
-                        </li>
+                        {/* <li>
+                        <a href="">Home</a>
+                        </li> */}
                         <li>
                         <a href="https://www.linkedin.com/in/ongzijian/" rel="noreferrer noopener" target="_blank">LinkedIn</a>
                         </li>
