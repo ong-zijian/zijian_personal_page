@@ -1,22 +1,24 @@
 //import logo from './logo.svg';
-import johannes from './image/johannes-plenio.jpg'
+import zijian from './image/zijianLogo.png';
 import Navbar from './components/navbar';
 import './stylesheet/App.css';
 import VerticalTimeline from './components/timeline.js'
+import ExampleComponent from './components/typing';
 
 function App() {
   return (
     <div className='mainDiv'>
       <Navbar/>
-      <div className='container' class="mt-4">
-        <img src={johannes} alt="Credit Johaness Pieno, retrieved from: https://unsplash.com/photos/DKix6Un55mw" className='johannes' ></img>
-        <p><i>Credit: Image by Johaness Pieno, retrieved from <a href="https://unsplash.com/photos/DKix6Un55mw">Unsplash</a></i></p>
+      <div class="mt-2 d-flex justify-content-center">
+        <img src={zijian} alt="Zi Jian Logo" class= "img-responsive m-4 col-3 w-3"></img>
       </div>
-      <div>
-        <h2 class="text-center m-2">My Portfolio</h2>
+      <div class="m-12 pb-12">
+        <ExampleComponent/>
+      </div>
+      <div class="mt-6">
+        <h2 class="text-center m-2" style={{color:'#1c2e4a'}}>My Portfolio</h2>
         <VerticalTimeline/>
       </div>
-
     </div>
     
   );

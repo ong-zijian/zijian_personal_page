@@ -9,7 +9,7 @@ export default class Navbar extends React.Component{
 
     render() {
         return(
-            <nav className="navi">
+            <nav className="navi" style={{color:"#1c2e4a"}}>
                 <img src={logo} alt='logo' className="logo"></img>
                 <a href="/" className="home-name">Ong Zi Jian's Profile</a>
                 <div className="navigation-menu">
@@ -21,7 +21,7 @@ export default class Navbar extends React.Component{
                         <a href="https://www.linkedin.com/in/ongzijian/" rel="noreferrer noopener" target="_blank">LinkedIn</a>
                         </li>
                         <li>
-                        <a href="https://github.com/ong-zijian?tab=projects" rel="noreferrer noopener" target="_blank">GitHub</a>
+                        <a href="https://github.com/ong-zijian" rel="noreferrer noopener" target="_blank">GitHub</a>
                         </li>
                     </ul>
                 </div>
