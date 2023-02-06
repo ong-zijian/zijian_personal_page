@@ -35,7 +35,7 @@ export default function timeline(){
             //icon={<WorkIcon />}
         >
             <div style={{color:"#1c2e4a"}}>
-                <h3 className="vertical-timeline-element-title">FinTech Content & Develoment Intern</h3>
+                <h3 className="vertical-timeline-element-title">FinTech Content & Development Intern</h3>
                 <h4 className="vertical-timeline-element-subtitle">PolicyPal - ValueChampion</h4>
                 <p>My internship at PolicyPal and Valuechampion consist mainly of writing articles and managing their database.</p>
                 <ul>
