@@ -9,10 +9,10 @@ export default function timeline(){
         {/* SMU Events */}
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#1c2e4a', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #1c2e4a' }}
-            date="2021 - present"
-            iconStyle={{ background: '#1c2e4a', color: '#fff' }}
+            contentStyle={{ background: '#4672b9', color: '#000' }}
+            contentArrowStyle={{ borderRight: '7px solid  #4672b9' }}
+            date="Aug 2021 - present"
+            iconStyle={{ background: '#4672b9', color: '#fff' }}
             //icon={<WorkIcon />}
         >
             <div style={{color:"#fff"}}>
@@ -41,7 +41,7 @@ export default function timeline(){
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="May 2022  - July 2022"
-            iconStyle={{ background: '#1c2e4a', color: '#fff' }}
+            iconStyle={{ background: '#4672b9', color: '#fff' }}
             //icon={<WorkIcon />}
         >
             <div style={{color:"#1c2e4a"}}>
@@ -59,9 +59,9 @@ export default function timeline(){
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Oct 2019 - Jul 2021"
-            contentStyle={{ background: '#1c2e4a', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #1c2e4a' }}
-            iconStyle={{ background: '#1c2e4a', color: '#fff' }}
+            contentStyle={{ background: '#4672b9', color: '#000' }}
+            contentArrowStyle={{ borderRight: '7px solid  #4672b9' }}
+            iconStyle={{ background: '#4672b9', color: '#fff' }}
             //icon={<WorkIcon />}
         >
             <div style={{color:"#fff"}}>
@@ -75,7 +75,7 @@ export default function timeline(){
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Sep 2018 - Feb 2019"
-            iconStyle={{ background: '#1c2e4a', color: '#fff' }}
+            iconStyle={{ background: '#4672b9', color: '#fff' }}
             //icon={<WorkIcon />}
         >
             <div style={{color:"#1c2e4a"}}>
@@ -118,9 +118,9 @@ export default function timeline(){
         <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="April 2016 - April 2019"
-            contentStyle={{ background: '#1c2e4a', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #1c2e4a' }}
-            iconStyle={{ background: '#1c2e4a', color: '#fff' }}
+            contentStyle={{ background: '#4672b9', color: '#000' }}
+            contentArrowStyle={{ borderRight: '7px solid  #4672b9' }}
+            iconStyle={{ background: '#4672b9', color: '#fff' }}
             //icon={<SchoolIcon />}
         >
             <div style={{color:"#fff"}}>

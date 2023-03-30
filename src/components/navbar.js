@@ -14,19 +14,19 @@ export default class Navbar extends React.Component{
                 <a href="/" className="home-name">Ong Zi Jian's Profile</a>
                 <div className="navigation-menu">
                     <ul>
-                        <li>
-                            <a href="https://drive.google.com/file/d/1gXV2vEJJd-VCwFcA-rnq0cA6FccEbhVv/view?usp=sharing" rel="noreferrer noopener" target="_blank">Resume</a>
+                        <li className="navigation-menu_li">
+                        <a href="https://drive.google.com/file/d/1gXV2vEJJd-VCwFcA-rnq0cA6FccEbhVv/view?usp=sharing" rel="noreferrer noopener" target="_blank">Resume</a>
                         </li>
-                        <li>
-                        <a onClick={() => this.teleHandle()} className="link1">Telegram Handle</a>
+                        <li className="navigation-menu_li">
+                        <a onClick={() => this.teleHandle()} className="link1">Telegram</a>
                         </li>
-                        <li>
+                        <li className="navigation-menu_li">
                         <a onClick={() => this.email()} className="link1">Email</a>
                         </li>
-                        <li>
+                        <li className="navigation-menu_li">
                         <a href="https://www.linkedin.com/in/ongzijian/" rel="noreferrer noopener" target="_blank">LinkedIn</a>
                         </li>
-                        <li>
+                        <li className="navigation-menu_end">
                         <a href="https://github.com/ong-zijian" rel="noreferrer noopener" target="_blank">GitHub</a>
                         </li>
                     </ul>

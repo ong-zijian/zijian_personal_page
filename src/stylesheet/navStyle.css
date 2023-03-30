@@ -31,10 +31,16 @@
   display: flex;
   padding: 0;
 }
-.navigation-menu li {
+.navigation-menu_li {
   list-style-type: none;
-  margin: 0 1rem;
+  margin: 0 0 0 1rem;
 }
+
+.navigation-menu_end {
+  list-style-type: none;
+  margin-left:1rem;
+}
+
 .navigation-menu li a {
   text-decoration: underline;
   color: black;
