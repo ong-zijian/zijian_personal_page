@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/zijian_personal_page/static/css/main.e17046ca.css",
-    "main.js": "/zijian_personal_page/static/js/main.7e499e64.js",
+    "main.js": "/zijian_personal_page/static/js/main.02b4b2fe.js",
     "static/js/787.65a8f8da.chunk.js": "/zijian_personal_page/static/js/787.65a8f8da.chunk.js",
     "static/media/zijianLogo.png": "/zijian_personal_page/static/media/zijianLogo.84b1f63cf19be634e2c9.png",
     "index.html": "/zijian_personal_page/index.html",
     "main.e17046ca.css.map": "/zijian_personal_page/static/css/main.e17046ca.css.map",
-    "main.7e499e64.js.map": "/zijian_personal_page/static/js/main.7e499e64.js.map",
+    "main.02b4b2fe.js.map": "/zijian_personal_page/static/js/main.02b4b2fe.js.map",
     "787.65a8f8da.chunk.js.map": "/zijian_personal_page/static/js/787.65a8f8da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e17046ca.css",
-    "static/js/main.7e499e64.js"
+    "static/js/main.02b4b2fe.js"
   ]
 }
