@@ -9,7 +9,7 @@ export default function timeline(){
         {/* SMU Events */}
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#1c2e4a', color: '#000' }}
+            contentStyle={{ background: '#1c2e4a', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #1c2e4a' }}
             date="2021 - present"
             iconStyle={{ background: '#1c2e4a', color: '#fff' }}
@@ -17,12 +17,22 @@ export default function timeline(){
         >
             <div style={{color:"#fff"}}>
             <h3 className="vertical-timeline-element-title">SMU</h3>
-            <h4 className="vertical-timeline-element-subtitle">BSc Information System</h4>
+            <h4 className="vertical-timeline-element-subtitle">BSc Information System | Year 2</h4>
             <ul>
-                <li>Vue.js project: Assisted in creating a simple backend using Firebase. <a href="https://github.com/BeforeClass/web-frontend" style={{color:"whitesmoke"}}>Project</a></li>
-                <li>Basic web skills: React.js, Flask, HTML, CSS, PHP, Bootstrap</li>
                 <li>Programming Language: Python, Java (basic)</li>
-                <li>Data Analytics: Tableau, Pandas, Numpy, Matplotlib, Seaborn</li>
+                <li>Vue.js project: Assisted in creating a simple backend using Firebase. <a href="https://github.com/BeforeClass/web-frontend"  target="_blank" style={{color:"whitesmoke", fontWeight:"bold"}}>Project</a></li>
+                <li>Flask project: Using Flask microservices to design and implement a backend Service Oriented Architecture (SOA). Usage of Docker, RabbitMQ, Konga and etc. Click <a href="https://github.com/ong-zijian/ESD_Tour_Project"  target="_blank" style={{color:"whitesmoke", fontWeight:"bold"}}>here</a> to view the project.</li>
+                <li>Basic web skills: React.js, Flask, HTML, CSS, PHP, Bootstrap</li>
+                <li><a href="https://github.com/ong-zijian/Analytics_Foundation_Practice" style={{color:"whitesmoke", fontWeight:"bold"}}  target="_blank">Data Analytics</a>:
+                    <ul>
+                        <li>Tableau, Pandas, Numpy, Matplotlib, Seaborn</li>
+                        <li>Linear Regression</li>
+                        <li>Clustering</li>
+                        <li>Decision Tree Classification</li>
+                        <li>Log Regression</li>
+                    </ul>
+                </li>
+                <li>AWS Cloud Foundation</li>
             </ul>
             </div>
         </VerticalTimelineElement>
@@ -49,7 +59,7 @@ export default function timeline(){
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Oct 2019 - Jul 2021"
-            contentStyle={{ background: '#1c2e4a', color: '#000' }}
+            contentStyle={{ background: '#1c2e4a', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #1c2e4a' }}
             iconStyle={{ background: '#1c2e4a', color: '#fff' }}
             //icon={<WorkIcon />}
@@ -108,7 +118,7 @@ export default function timeline(){
         <VerticalTimelineElement
             className="vertical-timeline-element--education"
             date="April 2016 - April 2019"
-            contentStyle={{ background: '#1c2e4a', color: '#000' }}
+            contentStyle={{ background: '#1c2e4a', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #1c2e4a' }}
             iconStyle={{ background: '#1c2e4a', color: '#fff' }}
             //icon={<SchoolIcon />}

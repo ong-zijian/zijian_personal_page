@@ -9,11 +9,14 @@ export default class Navbar extends React.Component{
 
     render() {
         return(
-            <nav className="navi" style={{color:"#1c2e4a"}}>
+            <nav className="navbar" style={{color:"#1c2e4a"}}>
                 <img src={logo} alt='logo' className="logo"></img>
                 <a href="/" className="home-name">Ong Zi Jian's Profile</a>
                 <div className="navigation-menu">
                     <ul>
+                        <li>
+                            <a href="https://drive.google.com/file/d/1gXV2vEJJd-VCwFcA-rnq0cA6FccEbhVv/view?usp=sharing" rel="noreferrer noopener" target="_blank">Resume</a>
+                        </li>
                         <li>
                         <a onClick={() => this.teleHandle()} className="link1">Telegram Handle</a>
                         </li>
