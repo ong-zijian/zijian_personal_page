@@ -7,7 +7,7 @@ import ExampleComponent from './components/typing';
 
 function App() {
   return (
-    <div className='mainDiv container-fluid px-0'>
+    <div className='mainDiv container-fluid px-0 p-0 min-vh-100'>
       <Navbar/>
       <div class="mt-2 d-flex justify-content-center">
         <img src={zijian} alt="Zi Jian Logo" class= "img-responsive m-4 col-3 w-3"></img>
