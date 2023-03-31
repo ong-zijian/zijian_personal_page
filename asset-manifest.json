@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/zijian_personal_page/static/css/main.ad1d6bf3.css",
-    "main.js": "/zijian_personal_page/static/js/main.6952386c.js",
+    "main.css": "/zijian_personal_page/static/css/main.2e9a3c65.css",
+    "main.js": "/zijian_personal_page/static/js/main.df138266.js",
     "static/js/787.65a8f8da.chunk.js": "/zijian_personal_page/static/js/787.65a8f8da.chunk.js",
     "static/media/zijianLogo.png": "/zijian_personal_page/static/media/zijianLogo.84b1f63cf19be634e2c9.png",
     "index.html": "/zijian_personal_page/index.html",
-    "main.ad1d6bf3.css.map": "/zijian_personal_page/static/css/main.ad1d6bf3.css.map",
-    "main.6952386c.js.map": "/zijian_personal_page/static/js/main.6952386c.js.map",
+    "main.2e9a3c65.css.map": "/zijian_personal_page/static/css/main.2e9a3c65.css.map",
+    "main.df138266.js.map": "/zijian_personal_page/static/js/main.df138266.js.map",
     "787.65a8f8da.chunk.js.map": "/zijian_personal_page/static/js/787.65a8f8da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad1d6bf3.css",
-    "static/js/main.6952386c.js"
+    "static/css/main.2e9a3c65.css",
+    "static/js/main.df138266.js"
   ]
 }
