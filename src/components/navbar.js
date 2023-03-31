@@ -11,11 +11,11 @@ export default class Navbar extends React.Component{
         return(
             <nav className="navbar" style={{color:"#1c2e4a"}}>
                 <img src={logo} alt='logo' className="logo"></img>
-                <a href="/" className="home-name">Ong Zi Jian's Profile</a>
+                <a href="https://ong-zijian.github.io/zijian_personal_page/" className="home-name">Ong Zi Jian's Profile</a>
                 <div className="navigation-menu">
                     <ul>
                         <li className="navigation-menu_li">
-                        <a href="https://drive.google.com/file/d/1gXV2vEJJd-VCwFcA-rnq0cA6FccEbhVv/view?usp=sharing" rel="noreferrer noopener" target="_blank">Resume</a>
+                        <a href="https://drive.google.com/file/d/1-oEU1tZJEo5zb3q3kvW0cGQM-1KxeqXa/view?usp=sharing" rel="noreferrer noopener" target="_blank">Resume</a>
                         </li>
                         <li className="navigation-menu_li">
                         <a onClick={() => this.teleHandle()} className="link1">Telegram</a>
