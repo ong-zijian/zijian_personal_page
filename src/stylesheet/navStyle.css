@@ -42,7 +42,8 @@
 }
 
 .navigation-menu li a {
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: bold;
   color: black;
   margin-top: 12px;
   display: block;
@@ -50,5 +51,5 @@
 }
 
 .link1 {
-  text-decoration: underline;
+  font-weight: bold;
 }
