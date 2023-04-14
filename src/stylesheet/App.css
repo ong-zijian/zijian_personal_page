@@ -6,7 +6,6 @@
   background-color: antiquewhite;
 }
 
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -47,14 +46,18 @@
   margin-left: auto; */
   /*padding: 1rem;*/
 }
-.johannes {
-  width: 100%;
-  height: 50%;
-  margin: auto;
-}
+
 .mainDiv {
-  background-color:lavender;
   margin: 0;
   padding: 0;
   width: 100%;
+}
+
+#particles-here {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
