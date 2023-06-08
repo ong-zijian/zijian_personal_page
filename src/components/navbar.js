@@ -18,16 +18,13 @@ export default class Navbar extends React.Component{
                         <a href="https://drive.google.com/file/d/1-oEU1tZJEo5zb3q3kvW0cGQM-1KxeqXa/view?usp=sharing" rel="noreferrer noopener" target="_blank">Resume</a>
                         </li>
                         <li className="navigation-menu_li">
-                        <a onClick={() => this.teleHandle()} className="link1">Telegram</a>
-                        </li>
-                        <li className="navigation-menu_li">
-                        <a onClick={() => this.email()} className="link1">Email</a>
-                        </li>
-                        <li className="navigation-menu_li">
                         <a href="https://www.linkedin.com/in/ongzijian/" rel="noreferrer noopener" target="_blank">LinkedIn</a>
                         </li>
                         <li className="navigation-menu_end">
                         <a href="https://github.com/ong-zijian" rel="noreferrer noopener" target="_blank">GitHub</a>
+                        </li>
+                        <li className="navigation-menu_li">
+                        <a onClick={() => this.contact()} className="link1">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -39,8 +36,8 @@ export default class Navbar extends React.Component{
     teleHandle(){
         alert("@ongzijian")
     }
-    email(){
-        alert("School: zijian.ong.2021@scis.smu.edu.sg\nPersonal: ozj.bruce@gmail.com")
+    contact(){
+        alert("School: zijian.ong.2021@scis.smu.edu.sg\nPersonal: ozj.bruce@gmail.com \nTelegram: @ongzijian")
     }
 }
 

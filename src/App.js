@@ -7,6 +7,8 @@ import ExampleComponent from './components/typing';
 //import ParticlesBackground from './components/reactParticle';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import Cert from "./components/certs.js";
+import Projects from "./components/project.js"
 
 export default function App() {
   const particlesInit = async (main) => {
@@ -141,11 +143,21 @@ export default function App() {
       }
       }/>
       <Navbar/>
+      {/* <div class="d-flex justify-content-center m-4 gap-2 col-6 mx-auto">
+        <button class="btn btn-lg mx-4" style={{backgroundColor:"#4672b9", color:"#ffffff"}}>Projects</button>
+        <button class="btn btn-lg mx-4" style={{backgroundColor:"#4672b9", color:"#ffffff"}}>Portfolio</button>
+      </div> */}
       <div class="mt-2 d-flex justify-content-center" id='move'>
         <img src={zijian} alt="Zi Jian Logo" class= "img-responsive m-4 col-3 w-3"></img>
       </div>
       <div class="m-12 pb-12">
         <ExampleComponent/>
+      </div>
+      <div>
+        <Cert/>
+      </div>
+      <div>
+        <Projects/>
       </div>
       <div class="mt-6">
         <h2 class="text-center m-2" style={{color:'#1c2e4a'}}>My Portfolio</h2>
