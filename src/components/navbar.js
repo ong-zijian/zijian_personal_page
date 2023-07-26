@@ -1,5 +1,6 @@
 import React from "react";
 import "../stylesheet/navStyle.css";
+import { Link } from 'react-router-dom'; 
 import logo from "../image/zijianLogo.png";
 
 export default class Navbar extends React.Component{
@@ -15,16 +16,16 @@ export default class Navbar extends React.Component{
                 <div className="navigation-menu">
                     <ul>
                         <li className="navigation-menu_li">
-                        <a href="https://drive.google.com/file/d/1-oEU1tZJEo5zb3q3kvW0cGQM-1KxeqXa/view?usp=sharing" rel="noreferrer noopener" target="_blank">Resume</a>
+                            <Link to="/certs" className="link1">Certificates</Link>
                         </li>
+                        <li className="navigation-menu_li">
+                            <Link to="/projects" className="link1">Projects</Link>
+                        </li>  
                         <li className="navigation-menu_li">
                         <a href="https://www.linkedin.com/in/ongzijian/" rel="noreferrer noopener" target="_blank">LinkedIn</a>
                         </li>
                         <li className="navigation-menu_end">
                         <a href="https://github.com/ong-zijian" rel="noreferrer noopener" target="_blank">GitHub</a>
-                        </li>
-                        <li className="navigation-menu_li">
-                        <a onClick={() => this.contact()} className="link1">Contact</a>
                         </li>
                     </ul>
                 </div>

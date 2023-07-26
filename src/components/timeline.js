@@ -6,7 +6,24 @@ export default function timeline(){
         return (
         <VerticalTimeline>
         
-        {/* SMU Events */}
+        {/* Deloitte Internship */}
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="May 2023  - July 2023"
+            iconStyle={{ background: '#4672b9', color: '#fff' }}
+            //icon={<WorkIcon />}
+        >
+            <div style={{color:"#1c2e4a"}}>
+                <h3 className="vertical-timeline-element-title">Risk Advisory: Cyber & Strategic Risk (IR)</h3>
+                <h4 className="vertical-timeline-element-subtitle">Deloitte</h4>
+                <ul>
+                    <li>Assisted in drafting decks with knowledge of cybersecurity and incident response.</li>
+                    <li>Contributed to the smooth running of a cybersecurity TTX, ensuring effective communication and coordination.</li>
+                </ul>
+            </div>
+        </VerticalTimelineElement>
+
+        {/* SMU */}
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#4672b9', color: '#000' }}
@@ -20,16 +37,16 @@ export default function timeline(){
             <h4 className="vertical-timeline-element-subtitle">BSc Information System | Year 2</h4>
             <ul>
                 <li>Programming Language: Python, Java (basic)</li>
-                <li>Vue.js project: Assisted in creating a simple backend using Firebase. <a href="https://github.com/BeforeClass/web-frontend"  target="_blank" style={{color:"whitesmoke", fontWeight:"bold"}}>Project</a></li>
-                <li>Flask project: Using Flask microservices to design and implement a backend Service Oriented Architecture (SOA). Usage of Docker, RabbitMQ, Konga and etc. Click <a href="https://github.com/ong-zijian/ESD_Tour_Project"  target="_blank" style={{color:"whitesmoke", fontWeight:"bold"}}>here</a> to view the project.</li>
-                <li>Basic web skills: React.js, Flask, HTML, CSS, PHP, Bootstrap</li>
-                <li><a href="https://github.com/ong-zijian/Analytics_Foundation_Practice" style={{color:"whitesmoke", fontWeight:"bold"}}  target="_blank">Data Analytics</a>:
+                <li>Vue.js project: Assisted in creating a simple backend using Firebase. <a href="https://github.com/BeforeClass/web-frontend" rel="noreferrer" target="_blank" style={{color:"whitesmoke", fontWeight:"bold"}}>Project</a></li>
+                <li>Flask project: Using Flask microservices to design and implement a backend Service Oriented Architecture (SOA). Usage of Docker, RabbitMQ, Konga and etc. Click <a href="https://github.com/ong-zijian/ESD_Tour_Project"  target="_blank" rel="noreferrer" style={{color:"whitesmoke", fontWeight:"bold"}}>here</a> to view the project.</li>
+                <li>Basic web skills: Vue.js, React.js, Flask, Node.js, HTML, CSS, PHP, Bootstrap</li>
+                <li><a href="https://github.com/ong-zijian/Analytics_Foundation_Practice" style={{color:"whitesmoke", fontWeight:"bold"}} rel="noreferrer" target="_blank">Data Analytics</a>:
                     <ul>
+                        <li><a href="https://github.com/ong-zijian/emotion_detection" target="_blank" rel="noreferrer" style={{color:"whitesmoke", fontWeight:"bold"}}>AI, ML: Tensorflow, Keras, OpenCV, CNN, RNN</a></li>
                         <li>Tableau, Pandas, Numpy, Matplotlib, Seaborn</li>
-                        <li>Linear Regression</li>
+                        <li>Linear Regression, Log Regression</li>
                         <li>Clustering</li>
                         <li>Decision Tree Classification</li>
-                        <li>Log Regression</li>
                     </ul>
                 </li>
                 <li>AWS Cloud Foundation</li>
