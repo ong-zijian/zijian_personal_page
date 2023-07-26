@@ -1,16 +1,27 @@
 {
   "files": {
     "main.css": "/zijian_personal_page/static/css/main.42bd3cfe.css",
-    "main.js": "/zijian_personal_page/static/js/main.1a8f81f0.js",
+    "main.js": "/zijian_personal_page/static/js/main.0678eedf.js",
     "static/js/787.65a8f8da.chunk.js": "/zijian_personal_page/static/js/787.65a8f8da.chunk.js",
+    "static/media/cert11.jpg": "/zijian_personal_page/static/media/cert11.429eaac3f99f6b5434f3.jpg",
+    "static/media/cert6.jpg": "/zijian_personal_page/static/media/cert6.e3b77a097139ba9094db.jpg",
+    "static/media/cert5.jpg": "/zijian_personal_page/static/media/cert5.c62c7a10c8ca6df39e5f.jpg",
+    "static/media/cert3.jpg": "/zijian_personal_page/static/media/cert3.b0c7d670a978cd7876d1.jpg",
+    "static/media/cert9.jpg": "/zijian_personal_page/static/media/cert9.06f5e51bd7e24fa8adc3.jpg",
+    "static/media/cert7.jpg": "/zijian_personal_page/static/media/cert7.d5965a3522c5c991583f.jpg",
+    "static/media/cert8.jpg": "/zijian_personal_page/static/media/cert8.57b53d8cad8a0c934692.jpg",
+    "static/media/cert4.jpg": "/zijian_personal_page/static/media/cert4.009b290f4b798160e49f.jpg",
+    "static/media/cert10.jpg": "/zijian_personal_page/static/media/cert10.38af41a9280c241a4e31.jpg",
+    "static/media/cert1.jpg": "/zijian_personal_page/static/media/cert1.38eb19cd84f64a69edad.jpg",
+    "static/media/cert2.jpg": "/zijian_personal_page/static/media/cert2.af27d81d0f6609151c74.jpg",
     "static/media/zijianLogo.png": "/zijian_personal_page/static/media/zijianLogo.84b1f63cf19be634e2c9.png",
     "index.html": "/zijian_personal_page/index.html",
     "main.42bd3cfe.css.map": "/zijian_personal_page/static/css/main.42bd3cfe.css.map",
-    "main.1a8f81f0.js.map": "/zijian_personal_page/static/js/main.1a8f81f0.js.map",
+    "main.0678eedf.js.map": "/zijian_personal_page/static/js/main.0678eedf.js.map",
     "787.65a8f8da.chunk.js.map": "/zijian_personal_page/static/js/787.65a8f8da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42bd3cfe.css",
-    "static/js/main.1a8f81f0.js"
+    "static/js/main.0678eedf.js"
   ]
 }
