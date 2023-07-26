@@ -6,9 +6,9 @@ const ExampleComponent = () => {
       sequence={[
         'SMU BSc Information System',
         3000, // Wait
-        'Programming and Analytics', 
+        'Software Development, AI & ML', 
         3000, // Wait
-        'LinkedIn and Github on the top right',
+        'Click on the links above to find out more',
         () => {
           console.log('Done typing!'); // Place optional callbacks anywhere in the array
         }

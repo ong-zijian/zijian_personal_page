@@ -1,26 +1,25 @@
-//import logo from './logo.svg';
-import zijian from './image/zijianLogo.png';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import './stylesheet/App.css';
-import VerticalTimeline from './components/timeline.js'
-import ExampleComponent from './components/typing';
-//import ParticlesBackground from './components/reactParticle';
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import Cert from "./components/certs.js";
-import Projects from "./components/project.js"
+
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
+
+import HomePage from './pages/home';
+import CertificatesPage from './pages/certificates';
+import ProjectPage from './pages/projectPage'
 
 export default function App() {
   const particlesInit = async (main) => {
     console.log(main);
 
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
     await loadFull(main);
   };
+
   return (
-    <div className='mainDiv container-fluid px-0 p-2 min-vh-100'>
+    <Router>
+      <div className="mainDiv container-fluid px-0 p-2 min-vh-100">
       <Particles id='particles-here' init={particlesInit} options={
         {
           "fullScreen": {
@@ -142,28 +141,13 @@ export default function App() {
           }
       }
       }/>
-      <Navbar/>
-      {/* <div class="d-flex justify-content-center m-4 gap-2 col-6 mx-auto">
-        <button class="btn btn-lg mx-4" style={{backgroundColor:"#4672b9", color:"#ffffff"}}>Projects</button>
-        <button class="btn btn-lg mx-4" style={{backgroundColor:"#4672b9", color:"#ffffff"}}>Portfolio</button>
-      </div> */}
-      <div class="mt-2 d-flex justify-content-center" id='move'>
-        <img src={zijian} alt="Zi Jian Logo" class= "img-responsive m-4 col-3 w-3"></img>
+        <Navbar />
+        <Routes>
+          <Route path="/zijian_personal_page" element={<HomePage />} />
+          <Route path="/certs" element={<CertificatesPage />} />
+          <Route path="/projects" element={<ProjectPage />} />
+        </Routes>
       </div>
-      <div class="m-12 pb-12">
-        <ExampleComponent/>
-      </div>
-      <div>
-        <Cert/>
-      </div>
-      <div>
-        <Projects/>
-      </div>
-      <div class="mt-6">
-        <h2 class="text-center m-2" style={{color:'#1c2e4a'}}>My Portfolio</h2>
-        <VerticalTimeline/>
-      </div>
-    </div>
-    
+    </Router>
   );
 }
