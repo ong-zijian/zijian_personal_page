@@ -9,10 +9,10 @@ import React from 'react';
 function HomePage() {
   return (
     <div>
-      <div class="mt-2 d-flex justify-content-center" id='move'>
+      <div className="mt-2 d-flex justify-content-center" id='move'>
         <img src={zijian} alt="Zi Jian Logo" class= "img-responsive m-4 col-3 w-3"></img>
       </div>
-      <div class="m-12 pb-12">
+      <div className="m-12 pb-12">
         <ExampleComponent/>
       </div>
 
@@ -46,8 +46,8 @@ function HomePage() {
         />
       </div>
 
-      <div class="mt-6">
-        <h2 class="text-center m-2" style={{color:'#1c2e4a'}}>My Portfolio</h2>
+      <div className="mt-6">
+        <h2 className="text-center m-2" style={{color:'#1c2e4a'}}>My Portfolio</h2>
         <VerticalTimeline/>
       </div>
     </div>
