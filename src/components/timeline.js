@@ -5,6 +5,22 @@ import 'react-vertical-timeline-component/style.min.css';
 export default function timeline(){
         return (
         <VerticalTimeline>
+
+        {/* WSAudiology */}
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="Jan 2024 - May 2024"
+            contentStyle={{ background: '#4672b9', color: '#000' }}
+            contentArrowStyle={{ borderRight: '7px solid  #4672b9' }}
+            iconStyle={{ background: '#4672b9', color: '#fff' }}
+            //icon={<WorkIcon />}
+        >
+            <div style={{color:"#fff"}}>
+                <h3 className="vertical-timeline-element-title">Software Development Engineer Intern</h3>
+                <h4 className="vertical-timeline-element-subtitle">WSAudiology B2C R&D</h4>
+                <p>I assist in creating a React Typescript frontend with ASP.net proxy to help test automators speed up testing workflow</p>
+            </div>
+        </VerticalTimelineElement>
         
         {/* Deloitte Internship */}
         <VerticalTimelineElement
@@ -48,6 +64,7 @@ export default function timeline(){
                 <li>
                     Secondary Languages:<br></br>
                     <span className="badge bg-secondary p-2 m-1">C++</span>
+                    <span className="badge bg-secondary p-2 m-1">C#</span>
                     <span className="badge bg-secondary p-2 m-1">Go</span>
                     <span className="badge bg-secondary p-2 m-1">Bash</span>
                 </li>
@@ -70,6 +87,7 @@ export default function timeline(){
                     <span className="badge bg-secondary p-2 m-1">Node.js</span>
                     <span className="badge bg-secondary p-2 m-1">Spring Boot</span>
                     <span className="badge bg-secondary p-2 m-1">PHP</span>
+                    <span className="badge bg-secondary p-2 m-1">ASP.net</span>
                     <br></br>
                     Database:
                     <span className="badge bg-secondary p-2 m-1">MySQL</span>
@@ -80,16 +98,15 @@ export default function timeline(){
                 <li><a href="https://github.com/ong-zijian/Analytics_Foundation_Practice" style={{color:"whitesmoke", fontWeight:"bold"}} rel="noreferrer" target="_blank">Data Analytics</a>:
                     <ul>
                         <li><a href="https://github.com/ong-zijian/emotion_detection" target="_blank" rel="noreferrer" style={{color:"whitesmoke", fontWeight:"bold"}}>AI, ML: Tensorflow, Keras, OpenCV, CNN, RNN</a></li>
+                        <li>Financial Analytics with yFinance and portfolio creation</li>
                         <li>Tableau, Pandas, Numpy, Matplotlib, Seaborn</li>
-                        <li>Linear Regression, Log Regression</li>
-                        <li>Clustering</li>
-                        <li>Decision Tree Classification</li>
+                        <li>Linear & Log Regression, Clustering & Decision Tree Classification</li>
                         <li>Social Media & Text:
                             <ul>
-                                <li>Reddit Scraping</li>
-                                <li>Sentiment Analysis</li>
-                                <li>Topic Analysis</li>
-                                <li>Graph Network Analysis</li>
+                                <li>Reddit Scraping (praw)</li>
+                                <li>Sentiment Analysis(NLTK, Vadar, Textblob)</li>
+                                <li>Topic Analysis(LDA)</li>
+                                <li>Graph Network Analysis (NetworkX)</li>
                             </ul>
                         </li>
 
