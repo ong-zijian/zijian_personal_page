@@ -48,7 +48,3 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 2. Pull request and merge to main
 3. Go to main and run `npm run deploy` (make sure to let the script run its course)
 4. Check live page
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

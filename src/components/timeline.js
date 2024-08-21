@@ -18,7 +18,30 @@ export default function timeline(){
             <div style={{color:"#fff"}}>
                 <h3 className="vertical-timeline-element-title">Software Development Engineer Intern</h3>
                 <h4 className="vertical-timeline-element-subtitle">WSAudiology B2C R&D</h4>
-                <p>I assist in creating a React Typescript frontend with ASP.net proxy to help test automators speed up testing workflow</p>
+                <p>I am assisting the B2C R&D team in realising innovative solutions to replace current processes and improve work efficiencies.</p>
+                <ol>
+                    <li><b>Device Test Automation</b><br></br>Frontend dashboard and automation tool to improve the speed of delivering tests and create a better view for the test automation team.
+                        <br></br>
+                        <span className="badge bg-dark p-2 m-1">Typscript</span>
+                        <span className="badge bg-dark p-2 m-1">MUI</span>
+                        <span className="badge bg-dark p-2 m-1">Redux</span>
+                        <span className="badge bg-dark p-2 m-1">ASP.net</span>
+                        <ul>
+                            <li>Usage of Typescript.js, MUI, and ASP.net to create the web application</li>
+                            <li>One-click processes to test all devices inside the set parameters</li>
+                        </ul>
+                    </li>
+                    <li><b>Audio Detection</b><br></br>Detect audio with AI model to verify whether the right confirmation beep is presented. This helps reduce the man hours needed when there is a requirement for manual testing of hundreds or thousands of files.
+                        <br></br>
+                        <span className="badge bg-dark p-2 m-1">Python</span>
+                        <span className="badge bg-dark p-2 m-1">Pytorch</span>
+                        <span className="badge bg-dark p-2 m-1">Librosa</span>
+                        <ul>
+                            <li>Usage of Python, Pytorch, Librosa and other audio-processing library</li>
+                            <li>Creative problem-solving and audio principles used to fit off-the-shelf solutions to our requirements</li>
+                        </ul>
+                    </li>
+                </ol>
             </div>
         </VerticalTimelineElement>
         
