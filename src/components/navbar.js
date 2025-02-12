@@ -11,8 +11,10 @@ export default class Navbar extends React.Component{
     render() {
         return(
             <nav className="navbar" style={{color:"#1c2e4a"}}>
-                <img src={logo} alt='logo' className="logo"></img>
-                <a href="https://ong-zijian.github.io/zijian_personal_page/" className="home-name">Ong Zi Jian's Profile</a>
+                <a href="https://ong-zijian.github.io/zijian_personal_page/">
+                    <img src={logo} alt="logo" className="logo" style={{ width: "50px   ", height: "auto" }} />
+                </a>
+
                 <div className="navigation-menu">
                     <ul>
                         <li className="navigation-menu_li">
