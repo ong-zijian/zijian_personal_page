@@ -9,9 +9,9 @@ import React from 'react';
 function HomePage() {
   return (
     <div>
-      <div className="mt-2 d-flex justify-content-center" id='move'>
+      {/* <div className="mt-2 d-flex justify-content-center" id='move'>
         <img src={zijian} alt="Zi Jian Logo" class= "img-responsive m-4 col-3 w-3"></img>
-      </div>
+      </div> */}
       <div className="m-12 pb-12">
         <ExampleComponent/>
       </div>
